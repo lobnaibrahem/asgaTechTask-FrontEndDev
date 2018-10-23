@@ -1,0 +1,87 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .pre-header-txt span{
+        padding: 0 5px;
+    }
+    .pre-header-txt,.pre-header-icon {
+        text-align: center;
+        float: none !important;
+    } 
+    .nav-logo {
+        width: 100px;
+    }
+    .away{
+        display: none;
+    }
+    #about{
+        display: none;
+    }
+    #about-responsive{
+    display: block;
+}
+}
+
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+     .pre-header-txt span{
+        padding: 0 5px;
+    }
+    .pre-header-txt,.pre-header-icon {
+        text-align: center;
+        float: none !important;
+    } 
+        .nav-logo {
+        width: 120px;
+    }
+         #about{
+        display: none;
+    }
+        #about-responsive{
+    display: block;
+}
+}
+/* Medium devices - another Break Point*/
+@media (min-width: 768px){
+    .pre-header-txt{
+    max-width: 60% !important;
+        flex: none!important;
+}
+    .pre-6{
+        max-width: 40% !important;
+        flex: none;
+}
+      .nav-logo {
+        width: 150px;
+    }
+      
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+ .pre-header-txt {
+       max-width: 100%
+    }
+    .nav-item{
+        padding: 0;
+    }
+    .car-div{
+    width: 80px;
+    text-align: center;
+    background-color: #fff;
+    height: 97px;
+}
+    .car-div img {
+        padding-top: 40px;
+    }
+      
+
+    }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+    .nav-item{
+        padding: 0;
+    }
+   
+    }
